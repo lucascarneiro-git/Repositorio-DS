@@ -1,0 +1,188 @@
+    /* Reset */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Elementos */
+    header {
+        text-align: center;
+        padding: 10px 0;
+        background-image: url(../img/fundo-topo.jpg);
+    }
+
+    header h1 {
+        margin: 0;
+        height: 84px;
+    }
+
+    nav {
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        padding-right: 27px;
+        margin-right: 10px;
+        background-image: url(../img/patinha-preta.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+
+    nav a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: #6dd432;
+    }
+
+    form {
+        width: 380px;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        border: 1px solid #6dd432;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        background-color: #bdff9c;
+        display: flex;
+        justify-content: center;
+
+        img {
+
+            width: 40px;
+            height: 40px;
+        }
+
+        a {
+            margin: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        p{
+            margin-top: 2px;
+        }
+
+    }
+
+
+
+    /* Class */
+
+    .conteiner {
+        width: 900px;
+        margin: 0 auto;
+        padding: 27px 0;
+    }
+
+    .flex-conteiner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .fundo-verde {
+        background-color: #bdff9c;
+    }
+
+    .flex-conteiner .col {
+        width: 430px;
+    }
+
+    .sobre_nos {
+        margin-bottom: 20px;
+    }
+
+    .produto figure {
+        border: 1px solid #c4c4c4;
+        background-color: #fff;
+        margin: 15px 0 0 0;
+        /* Superior Direito Rodapé Esquerdo*/
+        padding: 0;
+        text-align: center;
+        height: 160px;
+        line-height: 160px;
+    }
+
+    .produto figure img {
+        vertical-align: middle;
+    }
+
+    .texto-centralizado {
+        text-align: center;
+    }
+
+    .btn-pata {
+        border: 1px solid #91e467;
+        background-color: #d2fbbd;
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .produto {
+        width: 235px;
+        text-align: center;
+    }
+
+
+    /* IDs */
+    #itemContato {
+        background-image: none;
+    }
+
+    #produto .flex-conteiner,
+    #contato .flex-conteiner,
+    #servicos .flex-conteiner {
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+.conteiner {
+    display: flex;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        gap: 45px;
+        list-style-type: none;
+    }
+} */
